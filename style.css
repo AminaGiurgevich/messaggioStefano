@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('sfondo.jpg');
+    background-image: url('Sfondo.jpg');
     background-size: cover; /* Copre tutto lo sfondo mantenendo le proporzioni */
     background-position: center;
     background-attachment: fixed; /* La foto resta fissa durante lo scorrimento */
