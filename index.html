@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorpresa per Stefano</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ciao Amore!</h1>
+    <p>Ho preparato una sorpresa per te sperando ti piaccia. Clicca sul pulsante qui sotto per leggerla!</p>
+    <button id="reveal-btn">Scopri la sorpresa</button>
+    <p id="message" class="hidden">Ti amo, sei la mia vita e non vedo l' ora che torni a casa! ❤️</p>
+  </div>
+  <script>
+    document.getElementById('reveal-btn').addEventListener('click', function() {
+      document.getElementById('message').classList.remove('hidden');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('sfondo.jpg');
+    background-size: cover; /* Copre tutto lo sfondo mantenendo le proporzioni */
+    background-position: center;
+    background-attachment: fixed; /* La foto resta fissa durante lo scorrimento */
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  button {
+    background-color: #00aaf9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #00aaf9;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #message {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #00aaf9;
+  }
